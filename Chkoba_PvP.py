@@ -1,3 +1,5 @@
+#Note: This game is meant to be ran on "repl.it". Feel free to import it so you can run it yourself. Have Fun ^^
+
 import random
 import replit
 import time

@@ -1,6 +1,6 @@
 # Chkobba
 
-Chkobba is a traditional Tunisian card game with some Italian origins, it is played with a 40-card deck instead of a standard 52-card deck. The objective of the game is to outsmart your opponent by collecting key cards. Read more about it [here](https://fr.wikipedia.org/wiki/Chkobba#Bibliographie).
+Chkobba is a traditional Tunisian card game with some Italian origins, it is played with a 40-card deck instead of a standard 52-card deck. The objective of the game is to outsmart your opponent by collecting key cards. Read more about it [here](https://fr.wikipedia.org/wiki/Chkobba).
 
 ## Getting Started
 

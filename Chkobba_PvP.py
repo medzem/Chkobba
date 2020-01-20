@@ -1,4 +1,5 @@
 #Note: This game is meant to be ran on "repl.it". Feel free to import it so you can run it yourself. Have Fun ^^
+
 import random
 import replit
 import time
@@ -30,13 +31,13 @@ while True:
     break
 
 if(K=="1"):
-  FR=5
+  FR=11
 else:
   FR=21
 
 Total_Score=[0,0]
 
-while((Total_Score[0]<=FR)and(Total_Score[1]<=FR)):
+while((Total_Score[0]<FR)and(Total_Score[1]<FR)):
   replit.clear()
   C_Total=CH+CD+CC+CS
 
@@ -75,7 +76,7 @@ while((Total_Score[0]<=FR)and(Total_Score[1]<=FR)):
     R+=1
     print("Round ",R,": -------------------------------")
     for Round in range(3):
-      
+      reveal=input("Player 2, Press Enter to reveal cards...")
       print("P2 Hand: ",P2_hand)
       print("Table: ",Table)
       print("")
@@ -102,7 +103,7 @@ while((Total_Score[0]<=FR)and(Total_Score[1]<=FR)):
       P2_score += L_aux
 
       Clear()#---------------------------------------------------------------
-
+      reveal=input("Player 1, Press Enter to reveal cards...")
       print("P1 Hand: ",P1_hand)
       print("Table: ",Table)
 
@@ -162,15 +163,8 @@ while((Total_Score[0]<=FR)and(Total_Score[1]<=FR)):
 
   again=input("Press Enter to continue...")
 
-replit.clear()
 if (Total_Score[0]>Total_Score[1]):
   print("The final winner is Player 1")
 else: 
   print("The final winner is Player 2")
 #---------------------------------------------------------------
-
-
-
-
-
-
